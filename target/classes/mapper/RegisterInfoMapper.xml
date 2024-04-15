@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.RegisterInfoDao">
+
+    <select id="findByCondition" resultType="com.example.entity.RegisterInfo">
+        select * from register_info
+        <where>
+            <if test="teacherId != null">
+                and teacherId = #{teacherId}
+            </if>
+            <if test="studentId != null">
+                and studentId = #{studentId}
+            </if><!--
+            <if test="name != null and name != 'all'">
+                and name like concat('%', #{name}, '%')
+            </if>-->
+        </where>
+    </select>
+
+</mapper>
