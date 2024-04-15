@@ -4,8 +4,11 @@
 This project is a full-stack web application for managing student course registrations. The system allows users to register and log in as administrators, teachers, or students. Users can perform CRUD operations on different modules based on their roles. It is a project that can be scaled and applied to real-world applications.
 
 **Technologies Used**:
+
 **Backend**: Spring Boot, MyBatis, Spring MVC
+
 **Frontend**: HTML, CSS, JavaScript, Bootstrap, Vue.js
+
 **Database**: MySQL
 
 <img width="960" alt="143cb3ca1b5ba681f503fee2dd2988d" src="https://github.com/paowaer/StudentCoursesRegistration/assets/142409716/48eb4a39-acab-4441-b766-7afc45bb6fca">
