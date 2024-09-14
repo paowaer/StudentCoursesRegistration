@@ -1,4 +1,4 @@
-#Student Course Registration System
+# Student Course Registration System
 ========
 
 This project is a full-stack web application for managing student course registrations. The system allows users to register and log in as administrators, teachers, or students. Users can perform CRUD operations on different modules based on their roles. It is a project that can be scaled and applied to real-world applications.
